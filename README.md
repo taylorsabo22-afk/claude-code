@@ -49,6 +49,9 @@ For more installation options, uninstall steps, and troubleshooting, see the [se
     ```
     > [!TIP]
     > For best experience on Android, use a keyboard and ensure you have at least 2GB RAM. Download Termux from [GitHub releases](https://github.com/termux/termux-app/releases) for the latest version.
+    
+    > [!NOTE]
+    > NPM is currently the recommended installation method for Termux/Android as the platform-specific installers are not available.
 
     **NPM (Deprecated):**
     ```bash
