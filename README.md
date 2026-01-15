@@ -38,6 +38,18 @@ For more installation options, uninstall steps, and troubleshooting, see the [se
     winget install Anthropic.ClaudeCode
     ```
 
+    **Termux (Android):**
+    ```bash
+    # Update package lists and install dependencies
+    pkg update && pkg upgrade -y
+    pkg install nodejs git -y
+    
+    # Install Claude Code
+    npm install -g @anthropic-ai/claude-code
+    ```
+    > [!TIP]
+    > For best experience on Android, use a keyboard and ensure you have at least 2GB RAM. Download Termux from [GitHub releases](https://github.com/termux/termux-app/releases) for the latest version.
+
     **NPM (Deprecated):**
     ```bash
     npm install -g @anthropic-ai/claude-code
